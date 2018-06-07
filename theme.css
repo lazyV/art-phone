@@ -1,0 +1,39 @@
+  .el-message-box__wrapper .el-message-box{
+	width: 80%;
+  }
+  .el-message-box__header {
+	border-bottom: 1px solid #f8c301;
+  }
+  button.el-button--primary {
+	background: rgba(248, 195, 1, 0.5);
+	border-color: #f8c301;
+  }
+  button.el-button--primary:focus,button.el-button--primary:hover {
+	background: rgba(248, 195, 1, 0.5);
+	border-color: #f8c301;
+  }
+  .el-dialog {
+	border-radius: 6px;
+	top: 50%;
+	margin-top: 0 !important;
+	transform: translateY(-50%)
+  }
+  .el-dialog__body {
+	padding: 20px 20px;
+  }
+  .el-input > .el-input__inner:focus{
+	border-color: #f8c301 !important;
+	}
+  .el-select .el-input.is-focus input.el-input__inner {
+	border-color: #f8c301;
+  }
+  .el-select-dropdown__item.selected {
+	color: #f8c301 !important;
+  }
+  .el-input > .el-input__inner {
+	background-color: transparent !important;
+	border-color: #f8c301
+  }
+  video {
+	width: 100% !important;
+  }
